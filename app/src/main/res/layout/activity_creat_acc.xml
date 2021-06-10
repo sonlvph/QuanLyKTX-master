@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#404E5A"
+    tools:context=".Activity.CreatAccActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="CREAT ACCOUT"
+        android:textColor="#7BED8D"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/user"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/edtFullnameRegister"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bo_goc_edt"
+            android:layout_marginLeft="20dp"
+            android:hint="Full Name"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/pass"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/editPassRegister"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/bo_goc_edt"
+
+            android:hint="Password"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/pass"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/editCofPassRegister"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bo_goc_edt"
+
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/user"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/editUserRegister"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bo_goc_edt"
+            android:hint="Email Adress"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnCreatAcc"
+        android:layout_width="252dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#7BED8D"
+
+        android:text="Create Account" />
+
+
+</LinearLayout>
