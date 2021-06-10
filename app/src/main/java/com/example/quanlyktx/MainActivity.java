@@ -17,4 +17,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this, ListStudentActivity.class);
         startActivity(intent);
     }
+    public void tang(View view){
+        Intent intent=new Intent(MainActivity.this, TangActivity.class);
+        startActivity(intent);
+    }
+    public void phong(View view){
+        Intent intent=new Intent(MainActivity.this, RoomActivity.class);
+        startActivity(intent);
+    }
+//    public void thongKe(View view){
+//        Intent intent=new Intent(MainActivity.this, ListStudentActivity.class);
+//        startActivity(intent);
+//    }
 }
